@@ -18,6 +18,5 @@ module.exports = {
         "linebreak-style": 0,
         "no-unused-vars": 1,
         "quotes": [1, "single", { "allowTemplateLiterals": true }],
-        "class-methods-use-this": 1
+        "class-methods-use-this": 0,
     }
-};
