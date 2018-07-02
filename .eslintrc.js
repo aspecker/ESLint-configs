@@ -1,8 +1,9 @@
-module.exports = { 
+module.exports = {
     "extends": [
         "airbnb-base",
         "prettier",
-        "prettier/react"
+        "prettier/react",
+        "plugin:react/recommended"
     ],
     "plugins": [
         "react"
@@ -14,6 +15,9 @@ module.exports = {
     },
     rules: {
         "no-console": 0,
-        "quotes": [2, "single", { "allowTemplateLiterals": true }],
+        "linebreak-style": 0,
+        "no-unused-vars": 1,
+        "quotes": [1, "single", { "allowTemplateLiterals": true }],
+        "class-methods-use-this": 1
     }
 };
