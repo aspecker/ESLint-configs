@@ -1,4 +1,5 @@
 module.exports = {
+    "parser": "babel-eslint",
     "extends": [
         "airbnb-base",
         "prettier",
@@ -19,4 +20,7 @@ module.exports = {
         "no-unused-vars": 1,
         "quotes": [1, "single", { "allowTemplateLiterals": true }],
         "class-methods-use-this": 0,
+        "react/jsx-wrap-multilines": 0,
+        "prefer-const": 1
     }
+};
