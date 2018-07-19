@@ -21,6 +21,7 @@ module.exports = {
         "quotes": [1, "single", { "allowTemplateLiterals": true }],
         "class-methods-use-this": 0,
         "react/jsx-wrap-multilines": 0,
-        "prefer-const": 1
+        "prefer-const": 1,
+        "no-param-reassign": 0
     }
 };
